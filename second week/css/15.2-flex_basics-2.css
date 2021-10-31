@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.3rem;
+}
+.first {
+  background: blanchedalmond;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.second {
+  height: 20rem;
+  background: blanchedalmond;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second div {
+  flex-basis: 7rem;
+}
+.box1,
+.box11 {
+  background: green;
+}
+.box2,
+.box22 {
+  background: blue;
+}
+.box3,
+.box33 {
+  background: red;
+}
