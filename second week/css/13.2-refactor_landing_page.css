@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: url(../image/logo2.png) no-repeat left center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 80vw 100vh;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 62.5%;
+  overflow: auto;
+  background: url(../image/logo4.jpg) no-repeat right center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 40vw 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7rem;
+  color: #ffcc13;
+}
+.head {
+  padding: 1.1rem 0;
+}
+.text_left {
+  padding: 10rem;
+  width: 40rem;
+  font-size: 1.2rem;
+}
+.abbd {
+  text-decoration: none;
+  background-color: #ffcc13;
+  color: blue;
+}
+.aba {
+  padding: 1.1rem 2rem;
+  margin-bottom: 1rem;
+  background-color: #ffcc13;
+  color: blue;
+}
+.aaa {
+  line-height: 2.5rem;
+  padding: 0.2rem;
+  background-color: #ffcc13;
+  color: blue;
+}
+@media only screen and (max-width: 1600px) {
+  html {
+    font-size: 0.5rem;
+  }
+}

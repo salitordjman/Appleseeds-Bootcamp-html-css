@@ -1,1 +1,9 @@
-
+body {
+  text-align: center;
+}
+.flow {
+  font-size: calc(18px + 2vw + 2vh);
+}
+.flow2 {
+  font-size: calc(2vw + 2vh);
+}
