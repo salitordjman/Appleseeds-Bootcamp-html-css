@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>salitorgi_7.1-float_layout</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      max-width: 960px;
+      margin: 2px auto;
+    }
+    .clr {
+      clear: both;
+    }
+    body{
+      border: 1px solid black;
+      padding: 3px 100px;
+    }
+    #box-1 {
+      background: darkorange;
+      border: 1px solid black;
+      padding:20px;
+      margin: 3px 0px;
+      text-align: center;
+    }
+    #box-2 {
+      background:rgb(8, 160, 8);
+      border: 1px solid black;
+      padding: 5px 0px 300px;
+      margin: 3px 0px;
+      float: left;
+      width: 30%;
+    }
+    #box-3 {
+      background: rgb(212, 70, 212);
+      border: 1px solid black;
+      padding: 5px 0px 300px;
+      margin: 3px 0px;
+      float: right;
+      width: 69%;
+      text-align: right;
+    }
+    #box-4 {
+      background: rgb(31, 129, 221);
+      border: 1px solid black;
+      padding: 20px;
+      margin: 3px 0px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="box-1" class="box">Header
+    </div>
+    <div id="box-2" class="box">&nbsp;&nbsp;Side</div>
+    <div id="box-3" class="box">Main&nbsp;&nbsp;
+    </div>
+    <div class="clr"></div>
+    <div id="box-4" class="box">Footer
+    </div>
+  </div>
+</body>
+</html>

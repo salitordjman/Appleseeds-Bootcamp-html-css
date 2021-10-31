@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: blueviolet;
+  color: rgb(15, 226, 86);
+  text-align: center;
+  padding: 12px;
+  line-height: 55px;
+  font-size: 18px;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 40px;
+    background: rgb(226, 162, 43);
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  body {
+    font-size: 33px;
+    background: rgb(51, 54, 2);
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  body {
+    font-size: 25px;
+    background: rgb(57, 180, 202);
+  }
+}
