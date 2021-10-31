@@ -45,3 +45,11 @@ body {
   margin: 3px 0px;
   text-align: center;
 }
+@media only screen and (max-width: 1200px) {
+  #box-3 {
+    width: 100%;
+  }
+  #box-2 {
+    display: none;
+  }
+}
