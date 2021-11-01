@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  color: white;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 40rem;
+  border: 0.5rem solid red;
+}
+.btnm {
+  position: absolute;
+  z-index: 10;
+}
+.btn::after {
+  position: fixed;
+  content: "";
+  background: black;
+  height: 25rem;
+  width: 30rem;
+  z-index: 5;
+}
+.btnz::after {
+  content: "";
+  position: fixed;
+  top: 32%;
+  left: 20%;
+  height: 15rem;
+  width: 70rem;
+  background: black;
+  z-index: 6;
+}

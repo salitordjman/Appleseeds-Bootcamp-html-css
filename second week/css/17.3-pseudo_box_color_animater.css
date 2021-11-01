@@ -1,0 +1,28 @@
+.boxes {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.box1 {
+  width: 16rem;
+  height: 20rem;
+  background: purple;
+}
+.box1::after {
+  content: "";
+  position: absolute;
+  top: calc(50%-10rem);
+  left: 50%;
+  background: red;
+  width: 8rem;
+  height: 20rem;
+  z-index: 3;
+}
+.box1:hover {
+  background: blue;
+}
+.box1:hover::after {
+  background: black;
+}
