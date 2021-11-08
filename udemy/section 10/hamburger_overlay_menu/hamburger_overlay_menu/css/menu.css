@@ -46,7 +46,7 @@
 /* Hamburger Lines - Top & Bottom */
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 1;
   top: -10px;
@@ -61,9 +61,9 @@
 }
 
 /* Toggler Animation */
-.menu-wrap .toggler:checked + .hamburger > div {
+/* .menu-wrap .toggler:checked + .hamburger > div {
   transform: rotate(135deg);
-}
+} */
 
 /* Turns Lines Into X */
 .menu-wrap .toggler:checked + .hamburger > div:before,
@@ -73,9 +73,9 @@
 }
 
 /* Rotate On Hover When Checked */
-.menu-wrap .toggler:checked:hover + .hamburger > div {
+/* .menu-wrap .toggler:checked:hover + .hamburger > div {
   transform: rotate(225deg);
-}
+} */
 
 /* Show Menu */
 .menu-wrap .toggler:checked ~ .menu {
@@ -89,7 +89,7 @@
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
-  transition:  opacity 0.4s ease 0.4s;
+  transition: opacity 0.4s ease 0.4s;
 }
 
 .menu-wrap .menu {
